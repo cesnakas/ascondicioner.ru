@@ -8,7 +8,7 @@
     
     <title>ООО «АСКОН»</title>
     
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/local/templates/main/css/main.css">
 
 </head>
 <body>
@@ -24,7 +24,7 @@
 
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
-					<a class="nav-item nav-link" href="#">Home</a>
+					<a class="nav-item nav-link" href="/">Главная</a>
 					<a class="nav-item nav-link" href="#">About</a>
 					<a class="nav-item nav-link" href="#">Services</a>
 					<a class="nav-item nav-link" href="#">Pricing</a>
@@ -47,4 +47,4 @@
 		</div>
     </nav>
     
-    <main>
+    <main class="main">
