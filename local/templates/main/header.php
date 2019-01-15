@@ -16,7 +16,9 @@
     <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
 		<div class="container">
 		
-			<a class="navbar-brand" href="/">Brand</a>
+			<a class="navbar-brand" href="/">
+				<img class="logo" src="/local/templates/main/img/logo.png" alt="...">
+			</a>
 
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -25,10 +27,10 @@
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
 					<a class="nav-item nav-link" href="/">Главная</a>
-					<a class="nav-item nav-link" href="#">About</a>
-					<a class="nav-item nav-link" href="#">Services</a>
-					<a class="nav-item nav-link" href="#">Pricing</a>
-					<a class="nav-item nav-link" href="#">Contact</a>
+					<a class="nav-item nav-link" href="#">О нас</a>
+					<a class="nav-item nav-link" href="#">Услуги</a>
+					<a class="nav-item nav-link" href="#">Проекты</a>
+					<a class="nav-item nav-link" href="#">Контакты</a>
 				</div>
 
 				<!--<form class="form-inline ml-auto">

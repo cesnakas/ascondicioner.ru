@@ -6,6 +6,15 @@
 
 @import "footer";
 
+.navbar-brand {
+	padding-top: 0;
+	padding-bottom: 0;
+	
+	.logo {
+		height: 40px;
+	}
+}
+
 .main {
 	position: relative;
 	overflow: hidden;
