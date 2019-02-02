@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="/local/templates/main/css/main.css">
 
 </head>
-<body>
+<body id="page-top">
 
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top" id="mainNav">
 		<div class="container">
 		
 			<a class="navbar-brand" href="/">
@@ -26,11 +26,11 @@
 
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
-					<a class="nav-item nav-link" href="/">Главная</a>
-					<a class="nav-item nav-link" href="#">О нас</a>
-					<a class="nav-item nav-link" href="#">Услуги</a>
-					<a class="nav-item nav-link" href="#">Проекты</a>
-					<a class="nav-item nav-link" href="#">Контакты</a>
+					<a class="nav-item nav-link js-scroll-trigger" href="#page-top">Главная</a>
+					<a class="nav-item nav-link js-scroll-trigger" href="#about">О нас</a>
+					<a class="nav-item nav-link js-scroll-trigger" href="#services">Услуги</a>
+					<a class="nav-item nav-link js-scroll-trigger" href="#projects">Проекты</a>
+					<a class="nav-item nav-link js-scroll-trigger" href="#contact">Контакты</a>
 				</div>
 
 				<!--<form class="form-inline ml-auto">
