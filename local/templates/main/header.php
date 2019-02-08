@@ -39,7 +39,8 @@
 				</form>-->
 
 				<div class="navbar-nav ml-auto">
-					<a class="nav-item nav-link active" href="#">8 (846) 000-00-00</a>
+					<a class="nav-item nav-link active" href="#">8 (987) 981-27-79</a>
+					<a class="nav-item nav-link active" href="#">8 (917) 147-54-90</a>
 					<!--<a class="nav-item nav-link" href="#">Vk</a>
 					<a class="nav-item nav-link" href="#">Ig</a>-->
 				</div>

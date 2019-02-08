@@ -323,9 +323,11 @@ require($_SERVER['DOCUMENT_ROOT'].'/local/templates/main/header.php');
 							ул. Стара-Загора 202
 						</p>
 						<br>
-						<p class="display-4">+7 (123) 456-7890</p>
+						<p class="display-4">+7 (987) 981-27-79</p>
+						<p class="h4">cksamara@mail.ru</p>
 						<br>
-						<p class="display-4">+7 (123) 456-7890</p>
+						<p class="display-4">+7 (917) 147-54-90</p>
+						<p class="h4">aa-samara@mail.ru</p>
 					</address>
 				</div>
 				
