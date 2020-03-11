@@ -1,64 +1,10 @@
-// Old
-@import "bootstrap"; // Bootstrap
-@import    "swiper"; // Swiper
-@import    "slides"; // Slider
-
-// New
 @import      'fonts'; // Fonts
+@import  'bootstrap'; // Bootstrap
 @import     'reboot'; // Reboot
 @import       'grid'; // Grid
+@import     'swiper'; // Swiper
 @import 'navigation'; // Navigation
 @import   'sections'; // Sections
+@import     'slides'; // Slides
 @import     'footer'; // Footer
-
-// /////////////////////////////////////////
-
-
-// Main
-.main {
-	position: relative;
-	overflow: hidden;
-}
-
-// Modal
-.modal.modal-full {
-	padding-right: 0 !important;
-
-	.modal-dialog {
-		max-width: inherit !important;
-		margin: 0 !important;
-	}
-	.modal-content {
-		min-height: 110vh;
-		border: 0;
-		border-radius: 0;
-		background-color: lightblue;
-		background-blend-mode: overlay;
-		background-image: url(/ascondicioner.ru/images/cloud-4.png);
-		background-position: 50% 100%;
-		background-repeat: no-repeat;
-		background-size: contain;
-		
-
-		.modal-header {
-			padding: 1.85rem 1rem;
-			border-bottom: 0;
-			
-			@media (min-width: 992px) {
-				justify-content: center;
-			}
-		}
-
-		.close {
-			position: fixed;
-			top: 0;
-			right: 2rem;
-			zoom: 3;
-			font-weight: 400;
-			
-			@media (max-width: 767.98px) {
-				right: 1rem;
-			}
-		}
-	}
-}
+@import      'modal'; // Modal
