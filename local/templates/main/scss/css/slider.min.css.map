@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,OADG,AAAA,SAAS,CACZ,GAAG,AAAC,CACA,MAAM,CAAE,IAAI,CACZ,UAAU,CAAE,KAAK,CACjB,eAAe,CAAE,MAAM,CAC1B,AALL,AAMI,OANG,AAAA,SAAS,CAMZ,UAAU,CANd,OAAO,AAAA,SAAS,CAOZ,UAAU,AAAC,CACP,WAAW,CAAE,cAAc,CAC9B",
+    "sources": [
+        "../sections/slider.scss"
+    ],
+    "names": [],
+    "file": "slider.min.css"
+}

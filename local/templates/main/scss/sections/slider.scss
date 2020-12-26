@@ -1,0 +1,11 @@
+section.carousel {
+    img {
+        height: 90vh;
+        object-fit: cover;
+        object-position: center;
+    }
+    .display-2,
+    .display-6 {
+        text-shadow: 0 8px 8px #000;
+    }
+}

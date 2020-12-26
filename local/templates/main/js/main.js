@@ -20,7 +20,7 @@ var swiper = new Swiper('.swiper-container', {
 });
 
 // Nav Scroll
-(function($) {
+$(function($) {
 	"use strict"; // Start of use strict
 
 	// Smooth scrolling using jQuery easing
@@ -29,9 +29,7 @@ var swiper = new Swiper('.swiper-container', {
 			var target = $(this.hash);
 			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
 			if (target.length) {
-				$('html, body').animate({
-					scrollTop: (target.offset().top - 0)
-				}, 1000, "easeInOutExpo");
+				$('html, body').animate({scrollTop: (target.offset().top - 0)}, 400, 'easeInOutBack');
 				return false;
 			}
 		}
@@ -48,4 +46,5 @@ var swiper = new Swiper('.swiper-container', {
 		offset: 56
 	});
 
-})(jQuery); // End of use strict
+});
+(jQuery); // End of use strict
